@@ -6,8 +6,7 @@
   "description": "Tests a token against each file's full relative path (never its basename alone) over an already-observed PosixPathWalk.files-shaped array. Use as the cheapest stage of a staged search, never to walk or read the filesystem itself.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-file-engineering-services-section.git",
-    "directory": "services/file-observation-services-section/services/filename-token-matching-service"
+    "url": "git+https://github.com/red-cup-engineering/filename-token-matching-service.git"
   },
   "exports": "./src/match-filename-token.mjs",
   "scripts": {
