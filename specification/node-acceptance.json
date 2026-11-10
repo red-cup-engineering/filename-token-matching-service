@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "basis": "Match an explicit token against the full relative paths of observed files.",
+  "cases": [
+    {
+      "id": "FILENAME-TOKEN-REFUSAL",
+      "role": "source",
+      "kind": "refusal",
+      "claim": "An empty token is refused.",
+      "file": "test/match-filename-token.test.mjs",
+      "test": "throws on an empty token rather than silently matching everything"
+    },
+    {
+      "id": "FILENAME-TOKEN-QUICKSTART",
+      "role": "consumer",
+      "kind": "example",
+      "claim": "An installed caller matches a token found in a parent directory of a file.",
+      "file": "examples/quickstart.test.mjs"
+    }
+  ]
+}

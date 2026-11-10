@@ -8,3 +8,7 @@
 <!-- 561-group-standards:badges:end -->
 
 Tests a token against each file's full relative path (never its basename alone) over an already-observed PosixPathWalk.files-shaped array. Use as the cheapest stage of a staged search, never to walk or read the filesystem itself.
+
+## Acceptance
+
+Run `npm test` for the source suite. See the [API reference](docs/API.md) and [runnable consumer example](examples/quickstart.test.mjs).
